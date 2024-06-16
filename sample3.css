@@ -1,0 +1,12 @@
+button{
+    color: black;
+    font-size: larger;
+    column-gap: 15px;
+}
+body{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    font-style: normal;
+}

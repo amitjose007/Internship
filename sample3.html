@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+<div>
+    <h1>Calculator</h1>
+    <link rel="stylesheet" href="sample3.css">
+    <input type="text" id="display"><br><br>
+    <button onclick="append(1)">1</button>
+    <button onclick="append(2)">2</button>
+    <button onclick="append(3)">3</button><br><br>
+    <button onclick="append(4)">4</button>
+    <button onclick="append(5)">5</button>
+    <button onclick="append(6)">6</button><br><br>
+    <button onclick="append(7)">7</button>
+    <button onclick="append(8)">8</button>
+    <button onclick="append(9)">9</button><br><br>
+    <button onclick="append(0)">0</button>
+    <button onclick="append1('+')">+</button>
+    <button onclick="append1('-')">-</button><br><br>
+    <button onclick="append1('*')">*</button>
+    <button onclick="append1('/')">/</button>
+    <button onclick="append2()">=</button><br><br>
+    <button onclick="clear1()">C</button>
+</div>
+<script>
+    function append(num)
+    {
+        document.getElementById("display").value += num;
+    }
+    function append1(operator)
+    {
+        document.getElementById("display").value += operator;
+    }
+    function append2()
+    {
+        document.getElementById("display").value=eval(document.getElementById("display").value);
+    }
+    function clear1()
+    {
+        document.getElementById("display").value = "";
+    }
+
+</script>
+</body>
+</html>
