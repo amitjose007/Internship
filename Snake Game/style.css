@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+button
+{
+  position: relative;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.button1
+{
+  
+}
+.button2
+{
+
+}
+.up
+{
+
+}
+.down
+{
+
+}
+.left
+{
+
+}
+.right
+{
+  color: blue;
+}
