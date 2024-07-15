@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+
+.up
+{
+position: absolute;
+    top: 500px;
+    left: 160px;
+}
+.down
+{
+  position: absolute;
+  top: 625px;
+  left: 160px;
+}
+.left
+{
+  position: absolute;
+  top: 560px;
+  left: 110px;
+}
+.right
+{
+  position: absolute;
+  top: 560px;
+  left: 210px;
+}
+.pause
+{
+  position: absolute;
+  top: 550px;
+  right: 0px;
+  height: 80px;
+  width: 80px;
+}
+.Restart
+{
+  position: absolute;
+  top: 550px;
+  left: 0px;
+  height:80px;
+  width: 80px;
+}
+p
+{
+  align-content: center;
+  text-align: center;
+}
