@@ -4,10 +4,10 @@ Create the age old snake game with controls to move around at the bottom.
 
 ## Notes
 
-1.Created a snake using p5.js
-2.Apple should appear in random
-3.Snake's length should increase when it eats an apple
-4.Hitting the boundary should kill the snake
-5.Created a scorecard to calculate the score
-6.Changed the position of buttons
-7.Test in ios and android
+-Created a snake using p5.js
+-Apple should appear in random
+-Snake's length should increase when it eats an apple
+-Hitting the boundary should kill the snake
+-Created a scorecard to calculate the score
+-Changed the position of buttons
+-Test in ios and android
