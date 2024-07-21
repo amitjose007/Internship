@@ -1,3 +1,3 @@
 # StoryBrain Internship
 
-Snake Game - https://snakegametrail.surge.sh/snake.html
+Snake Game - https://snakegame1.surge.sh/index1.html
