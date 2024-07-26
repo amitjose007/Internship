@@ -7,6 +7,7 @@
 ## Calculator
 
 * v1 - https://calculator-v1.surge.sh/calculator.html
+* v2 - https://calculator-v2.surge.sh/calculator.html
 
 ## Todo
 
